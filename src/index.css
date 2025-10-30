@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+/* Base font and background */
+body {
+  font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2F2F2D;
+  background-color: #e9dcc0;
+}
