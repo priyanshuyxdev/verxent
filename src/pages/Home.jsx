@@ -5,7 +5,7 @@ import Video from "../components/Video";
 
 const Home = () => {
   return (
-    <div className="h-full w-full ">
+    <div className="h-full w-full pt-5 ">
       <h1 className="font-bold text-[10vw] text-center ">VERXENT STUDIO</h1>
 
       <div className="bottom flex w-full gap-10 ">

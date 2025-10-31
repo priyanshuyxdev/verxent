@@ -4,24 +4,18 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center py-2 px-2 mt-2 md:text-2xl bg-[#BBB4A4] rounded-2xl">
+    <div className="fixed top-0 left-0 w-full px-6 z-100">
+      <nav className="flex justify-between items-center py-2 px-2 mt-2 md:text-2xl bg-[#BBB4A4] rounded-2xl">
       <Link to="/" className="logo">
         <img className="h-10 w-15 rounded-full" src="./vx.png" alt="" />
       </Link>
-      <div className="menu flex list-none gap-5 text-xl ">
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/services">Services</Link>
-        </li>
-        <li>
-          <Link to="/work">Work</Link>
-        </li>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-      </div>
+      
+  <div className="menu flex list-none gap-5 text-xl">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#about">About</a></li>
+  </div>
       <Link to="contact">
         <Button
           label="Contact us"
@@ -29,6 +23,7 @@ const Navbar = () => {
         />
       </Link>
     </nav>
+    </div>
   );
 };
 
