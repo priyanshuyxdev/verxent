@@ -10,9 +10,7 @@ const Services = () => {
         {/* Intro Text */}
         <div id="services" className="text-center max-w-2/3 mx-auto">
           <p className="text-2xl opacity-80 leading-relaxed">
-            We blend design, technology, and strategy to build digital experiences
-            that make brands unforgettable. Every project is an opportunity to
-            craft something meaningful — simple, bold, and timeless.
+           From design to development to marketing, we turn ideas into digital realities. Our approach blends strategy, aesthetics, and technology to deliver lasting impact.
           </p>
         </div>
 
@@ -41,7 +39,7 @@ const Services = () => {
           <div className="col-span-3 row-span-3 col-start-5 rounded-2xl shadow-md overflow-hidden flex">
             <video
               className="rounded-2xl h-full w-full object-cover"
-              src="/showreel2.mp4"
+              src="/showreeldemo.mp4"
               autoPlay
               muted
               loop
