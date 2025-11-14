@@ -50,7 +50,7 @@ const Work = () => {
 ];
 
   return (
-    <div className=" h-screen">
+    <div id="work" className=" h-full">
       <CurvedLoop marqueeText="Our Work + " />
 
       <section>
@@ -62,7 +62,7 @@ const Work = () => {
 
 
 
-       <section className="w-full px-6 py-16" id="projects">
+       <section className="w-full px-6 py-6" id="projects">
       {/* <h2 className="text-4xl font-bold text-center mb-12">Our Projects</h2> */}
 
       <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
