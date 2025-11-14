@@ -47,7 +47,7 @@ const Services = () => {
           <div className="col-span-1 md:col-span-3 md:row-span-3 md:col-start-5 rounded-2xl shadow-md overflow-hidden flex h-48 md:h-auto">
             <video
               className="rounded-2xl h-full w-full object-cover"
-              src="/showreeldemo.mp4"
+              src="/showreel1cut.mp4"
               autoPlay
               muted
               loop
